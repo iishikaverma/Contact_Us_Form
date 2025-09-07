@@ -2,7 +2,6 @@ body {
   font-family: 'Karla', sans-serif;
   margin: 5px;
   background-color: #E2F1E7;
-  min-height: 100vh; 
 }
 
 .main {
@@ -16,7 +15,6 @@ body {
   width: 80%;            
   max-width: 600px;
 }
-
 
 .card-title {
   font-size: 2rem;
@@ -137,8 +135,7 @@ textarea {
   transition: border-color 0.2s, background-color 0.2s;
 }
 input:focus,
-textarea:focus,
-select:focus {
+textarea:focus{
   border-color: #0d7c68;
   background-color: #e6f4f1;
   outline: 2px solid #0d7c68;
@@ -180,9 +177,6 @@ textarea:hover {
     gap: 10px;
     margin-left: 5%;
     margin-right: 5%;
-  }
-  .checkbox-row {
-    flex-direction: row;
   }
 
   textarea{
